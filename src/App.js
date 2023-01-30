@@ -1,9 +1,10 @@
 import "./App.css";
+import Search from "./Search";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello from Vocabulary!</h1>
+    <div className="App container">
+      <Search />
     </div>
   );
 }
